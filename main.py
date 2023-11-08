@@ -17,7 +17,7 @@ badges_db = []
 
 # Classe pour représenter un utilisateur
 class User(BaseModel):
-    username: str
+    email: str
     password: str
 
 # Liste temporaire de comptes utilisateurs (pour la démonstration)
